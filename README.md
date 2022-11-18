@@ -103,5 +103,5 @@ Baptiste: Google API, beer clustering, analysis part
 
 ## Questions for TAs
  
-We noted that the API returned quite a few mistakes, as it localized breweries far away from their originate location. The % of error seems to be non negligible. Is there a way to resolve this issue? Otherwise we will probably have to discard the incorrect placement, which would results in a lot of data lost.
+We noted that the API returned quite a few mistakes, as sometiems, it localized breweries far away from their originate location. To correct that, we added the name of the country to the query. However, some breweries in the original csv file have some strange characters. For example: BÃ¤der SÃ¶rfÅ‘zde Ã©s SÃ¶rÃ¶zÅ‘ is a name of a brewery. is there a way to translate those characters to normal characters ? Otherwise we will probably have to discard the breweries with those characters, which would results in a lot of data lost.
 
