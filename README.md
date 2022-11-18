@@ -1,4 +1,4 @@
-# Project Title
+# Global to local trends in favorite beer styles: a spatial and temporal analysis linking production and consumption
 
 ## Abstract
 
@@ -26,15 +26,15 @@ that is, which kind of beers are consumed and preferred in which country. Being 
 
 ## Methods
 
-- Google API
+### Google API
 
 Using google API, we can retrieve the location of the breweries. We already used a simple query to find all of the breweries locations and some mistakes were found. So we still need to find an optimized google API query to minimize the errors while retrieving most of the locations. We will use different queries and try to find which of the queries yield the best results. One idea would be to aggregate the different queries and compare them to find errors and discard the outliers.
 
-- Beers clustering into categories
+### Beers clustering into categories
 
 We want to separate our beerstyles into wider categories, to have more distinguishable trends and to get sharper maps. Brewer’s Friend Beer recipe dataframe will help us to divide the beerstyle into different clusters by providing information about the properties specific to each style of beer.
 
-- Global scale analysis
+### Global scale analysis
 
 By using Google maps API giving us the latitude and longitude of the breweries, we will be able to produce different visualization maps with the Geopandas library. The maps that interest us are the following, viewed on a world map:
 
@@ -45,14 +45,14 @@ Brewery ranking based on users ratings, changing over time
 
 We categorized beer styles into categories that take various beerstyle into account, as having too many different beer styles is too difficult to handle for specified maps or analysis.
 
-Local scale analysis
+### Local scale analysis
 
 maps based on smaller scale regions, such as Switzerland, to perform a more detailed analysis. 
 Comparison between two different territories, such as USA and Europa, which probably have different beer consumption habits.
 
 
 
-Analysis part
+## Analysis part
 
 The main objective now would be to explain the observed consumption trends. Why are these styles of beer more appreciated globally? We will try to find explanations by performing some algorithms, such as linear regression, to identify the features between palate, taste, aroma, abv or appearance that make a beer more appreciated.
 
@@ -66,18 +66,19 @@ Having the final data of google API, with the least amount of errors
 Clustering the beers into categories
 Correcting and adjusting country dataframe
 
-09.12.22:
+For the 09.12.22:
 
 Final check for data integrity
 Creating most of the maps
 Understand how to create the website for the story
 
-16.12.22: 
-Having all the maps finished
+For the 16.12.22: 
 
+Having all the maps finished
 Having a good grasp with the analysis part, having performed a linear regression and identified the main features impacting the popularity of the beer. 
 
-23.12.22: Finish the analysis and the story
+For the 23.12.22: 
+Finishing the last analysis and the story
 
 
 
@@ -90,6 +91,6 @@ Baptiste: Google API, beer clustering, analysis part
 
 
 
-##Questions for TAs
+## Questions for TAs
  
 We noted that the API returned quite a few mistakes, as it localized breweries far away from their originate location. The % of error seems to be non negligible. Is there a way to resolve this issue? Otherwise we will probably have to discard the incorrect placement, which would results in a lot of data lost.
