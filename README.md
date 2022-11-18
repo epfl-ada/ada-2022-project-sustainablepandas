@@ -33,7 +33,6 @@ Using google API, we can retrieve the location of the breweries. We already used
   <img src="Images/BadQuery_Swi.PNG" width="350" title="Bad Query">
   <img src="Images/BetterQuery_Swi.PNG" width="350" title="Better Query">
 </p>
-![Alt text](Images/BadQuery_Swi.PNG "Bad Query")
 
 ### Beers clustering into categories
 
