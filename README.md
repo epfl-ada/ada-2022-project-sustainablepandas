@@ -2,8 +2,7 @@
 
 ## Abstract
 
-Beer is one of the most popular beverages and is consumed worldwide. With this in mind, we are interested to analyze and depict the type of beer consumption across the world,
-that is, which kind of beers are consumed and preferred in which country. Being provided with the dataset of the beer reviews website Ratebeer, we have access to a huge amount of data about beer ratings from users from everywhere in the world. The goal of the project is to create some interactive spatiotemporal map showing the trends of production and consumption of each country, starting from the earliest reviews available until 2017. It will help us to determine the preference and trend in beer consumption for the analyzed period of time, and we will try to explain the reasons behind it by identifying the main features that people like in beers. Google maps API will be used to localize more precisely the breweries in their respective countries.
+Beer is one of the most popular beverages and is consumed worldwide. With this in mind, we are interested to analyze and depict the type of beer consumption across the world, that is, which kind of beers are consumed and preferred in which country. Being provided with the dataset of the beer reviews website Ratebeer, we have access to a huge amount of data about beer ratings from users from everywhere in the world. The goal of the project is to create some interactive spatiotemporal map showing the trends of production and consumption of each country, starting from the earliest reviews available until 2017. It will help us to determine the preference and trend in beer consumption for the analyzed period of time, and we will try to explain the reasons behind it by identifying the main features that people like in beers. Google maps API will be used to localize more precisely the breweries in their respective countries.
 
 
 
@@ -58,7 +57,7 @@ Then, maps based on smaller scale regions, such as Switzerland, will be produced
 Comparison between two different territories, such as USA and Europa, which probably have different beer consumption habits, can also be processed.
 
 
-### Analysis part
+### Features and trends analysis 
 
 The main objective now would be to explain the observed consumption trends. Why are these styles of beer more appreciated globally? We will try to find explanations by performing some algorithms, such as linear regression, to identify the features between palate, taste, aroma, abv or appearance that make a beer more appreciated. Some results of the global and local trends will also be further investigated with graphics.
 
@@ -92,12 +91,12 @@ We will also make a comparison between the production and appreciation of a styl
 
 - Noé: Google API, mapping with the retrieved data, analysis part
 - Bastien: Mapping beer style and countries, analysis part
-- Nicolas: analysis part
+- Nicolas: Analysis part
 - Baptiste: Google API, beer clustering, analysis part
 
 
 
 ## Questions for TAs
  
-We noted that the API returned quite a few mistakes, as sometiems, it localized breweries far away from their originate location. To correct that, we added the name of the country to the query. However, some breweries in the original csv file have some strange characters. For example: BÃ¤der SÃ¶rfÅ‘zde Ã©s SÃ¶rÃ¶zÅ‘ is a name of a brewery. is there a way to translate those characters to normal characters ? Otherwise we will probably have to discard the breweries with those characters, which would results in a lot of data lost.
+We noted that the API returned quite a few mistakes, as sometiems, it localized breweries far away from their originate location. To correct that, we added the name of the country to the query. However, some breweries in the original csv file have some strange characters. For example: BÃ¤der SÃ¶rfÅ‘zde Ã©s SÃ¶rÃ¶zÅ‘ is a name of a brewery. is there a way to translate those characters to normal characters ? Otherwise we will probably have to discard the breweries with those characters, which would results in a lot of lost data.
 
