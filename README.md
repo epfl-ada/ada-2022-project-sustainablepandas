@@ -26,15 +26,15 @@ that is, which kind of beers are consumed and preferred in which country. Being 
 
 ## Methods
 
-Google API
+- Google API
 
 Using google API, we can retrieve the location of the breweries. We already used a simple query to find all of the breweries locations and some mistakes were found. So we still need to find an optimized google API query to minimize the errors while retrieving most of the locations. We will use different queries and try to find which of the queries yield the best results. One idea would be to aggregate the different queries and compare them to find errors and discard the outliers.
 
-Beers clustering into categories
+- Beers clustering into categories
 
 We want to separate our beerstyles into wider categories, to have more distinguishable trends and to get sharper maps. Brewer’s Friend Beer recipe dataframe will help us to divide the beerstyle into different clusters by providing information about the properties specific to each style of beer.
 
-Global scale analysis
+- Global scale analysis
 
 By using Google maps API giving us the latitude and longitude of the breweries, we will be able to produce different visualization maps with the Geopandas library. The maps that interest us are the following, viewed on a world map:
 
