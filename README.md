@@ -64,7 +64,7 @@ We will also make a comparison between the production and appreciation of a styl
 
 Here is an example of an interactive map for the favorite beer style per country until 2017
 <p align="center">
-  <img src="Images/interactive_Beer_styles.png" width="350" title="Interactive Beer Map">
+  <img src="Images/interactive_Beer_styles.png" width="600" title="Interactive Beer Map">
 </p>
 
 
@@ -105,4 +105,3 @@ Baptiste: Google API, beer clustering, analysis part
  
 We noted that the API returned quite a few mistakes, as it localized breweries far away from their originate location. The % of error seems to be non negligible. Is there a way to resolve this issue? Otherwise we will probably have to discard the incorrect placement, which would results in a lot of data lost.
 
-![BadQuery_Swi.PNG](https://[your-copied-image-address](https://github.com/epfl-ada/ada-2022-project-sustainablepandas/blob/main/Images/BadQuery_Swi.PNG?raw=true))
