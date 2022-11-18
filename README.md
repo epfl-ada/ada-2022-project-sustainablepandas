@@ -29,8 +29,8 @@ Beer is one of the most popular beverages and is consumed worldwide. With this i
 
 Using google API, we can retrieve the location of the breweries. We already used a simple query to find all of the breweries locations and some mistakes were found. So we still need to find an optimized google API query to minimize the errors while retrieving most of the locations. We will use different queries and try to find which of the queries yield the best results. One idea would be to aggregate the different queries and compare them to find errors and discard the outliers, with a clustering algorithm for example. Eventually, we will show the perfomance of the queries on a ROC curve. We plotted our first API requests below: the second image shows a better query request for retrieving brewery locations in Switzerland than the one on the left.
 <p align="center">
-  <img src="Images/BadQuery_Swi.PNG" width="455" title="Bad Query">
-  <img src="Images/BetterQuery_Swi.PNG" width="430" title="Better Query">
+  <img src="Images/BadQuery_Swi.PNG" width="405" title="Bad Query">
+  <img src="Images/BetterQuery_Swi.PNG" width="380" title="Better Query">
 </p>
 
 ### Beers clustering into categories
