@@ -62,6 +62,12 @@ The main objective now would be to explain the observed consumption trends. Why 
 
 We will also make a comparison between the production and appreciation of a style of beer in a given country. Import vs local production: which receive the best ratings? What came first, the local craft or the import one ?
 
+Here is an example of an interactive map for the favorite beer style per country until 2017
+<p align="center">
+  <img src="Images/interactive_Beer_styles.png" width="350" title="Interactive Beer Map">
+</p>
+
+
 ## Proposed timeline
 
 For the beginning of milestone III (02.12.22):
