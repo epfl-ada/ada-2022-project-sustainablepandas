@@ -29,6 +29,10 @@ that is, which kind of beers are consumed and preferred in which country. Being 
 ### Google API
 
 Using google API, we can retrieve the location of the breweries. We already used a simple query to find all of the breweries locations and some mistakes were found. So we still need to find an optimized google API query to minimize the errors while retrieving most of the locations. We will use different queries and try to find which of the queries yield the best results. One idea would be to aggregate the different queries and compare them to find errors and discard the outliers.
+<p align="center">
+  <img src="Images/BadQuery_Swi.PNG" width="350" title="Bad Query">
+  <img src="Images/BetterQuery_Swi.PNG" width="350" title="Better Query">
+</p>
 ![Alt text](Images/BadQuery_Swi.PNG "Bad Query")
 
 ### Beers clustering into categories
