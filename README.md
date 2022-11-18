@@ -94,3 +94,5 @@ Baptiste: Google API, beer clustering, analysis part
 ## Questions for TAs
  
 We noted that the API returned quite a few mistakes, as it localized breweries far away from their originate location. The % of error seems to be non negligible. Is there a way to resolve this issue? Otherwise we will probably have to discard the incorrect placement, which would results in a lot of data lost.
+
+![BadQuery_Swi.PNG](https://[your-copied-image-address](https://github.com/epfl-ada/ada-2022-project-sustainablepandas/blob/main/Images/BadQuery_Swi.PNG?raw=true))
