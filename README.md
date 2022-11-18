@@ -9,18 +9,18 @@ that is, which kind of beers are consumed and preferred in which country. Being 
 
 ## Research questions
 
-Which are the most popular beer styles produced and consumed by each country over time? 
+1) Which are the most popular beer styles produced and consumed by each country over time? 
 
-Are there some trends that can be observed depending on time periods and/or countries? Are these global trends the same as more local trends (inside a country)?
+2) Are there some trends that can be observed depending on time periods and/or countries? Are these global trends the same as more local trends (inside a country)?
 
-Why are these beer styles more popular? What are the features that make them more popular?
+3) Why are these beer styles more popular? What are the features that make them more popular?
 
 ## Proposed additional datasets
 
-Google Maps API will give us additional information about breweries locations: latitude and longitude. 
-Geopandas
-Maps delimitation of Switzerland or other required country by district.
-Brewer’s Friend Beer recipe dataframe, which gives us the different properties of each style of beer to perform a clustering of beerstyles into wider categories: https://www.kaggle.com/datasets/jtrofe/beer-recipes?resource=download
+- Google Maps API will give us additional information about breweries locations: latitude and longitude. 
+- Geopandas
+- Maps delimitation of Switzerland or other required country by district.
+- Brewer’s Friend Beer recipe dataframe, which gives us the different properties of each style of beer to perform a clustering of beerstyles into wider categories: https://www.kaggle.com/datasets/jtrofe/beer-recipes?resource=download
 
 
 
@@ -34,9 +34,7 @@ Beers clustering into categories
 
 We want to separate our beerstyles into wider categories, to have more distinguishable trends and to get sharper maps. Brewer’s Friend Beer recipe dataframe will help us to divide the beerstyle into different clusters by providing information about the properties specific to each style of beer.
 
-
 Global scale analysis
-
 
 By using Google maps API giving us the latitude and longitude of the breweries, we will be able to produce different visualization maps with the Geopandas library. The maps that interest us are the following, viewed on a world map:
 
@@ -60,17 +58,7 @@ The main objective now would be to explain the observed consumption trends. Why 
 
 We will also make a comparison between the production and appreciation of a style of beer in a given country. Import vs local production: which receive the best ratings? What came first, the local craft or the import one ?
 
-
-
-
-
-
-
 ## Proposed timeline
-
-
-
-
 
 For the beginning of milestone III (02.12.22):
 
@@ -88,8 +76,6 @@ Understand how to create the website for the story
 Having all the maps finished
 
 Having a good grasp with the analysis part, having performed a linear regression and identified the main features impacting the popularity of the beer. 
-
-
 
 23.12.22: Finish the analysis and the story
 
