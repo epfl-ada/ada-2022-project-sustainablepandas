@@ -1,13 +1,15 @@
 # Brewery locations - Where should you install your brewery based on beer reviews ?
 
-Github files:
+## Datastory 
+
+Check out our website and enjoy our data story:  [Sustainable Pandas Website](https://nicolasrochat.github.io)
+
+## Repo Contents:
 
 --> to update
 - `project_beer_reviews.ipynb`: main notebook for the project
 - `GoogleAPI.ipynb`: notebook containing the google API requests to get breweries latitudes and longitudes
 
-Datastory website:
-- [Sustainable Pandas Website](https://nicolasrochat.github.io)
 
 ## Abstract
 
