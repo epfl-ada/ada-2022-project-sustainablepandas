@@ -3,8 +3,8 @@
 Github files:
 
 --> to update
-- project_beer_reviews.ipynb: main notebook for the project
-- GoogleAPI.ipynb: notebook containing the google API requests to get breweries latitudes and longitudes
+- `project_beer_reviews.ipynb`: main notebook for the project
+- `GoogleAPI.ipynb`: notebook containing the google API requests to get breweries latitudes and longitudes
 
 Datastory website:
 - [Sustainable Pandas Website](https://nicolasrochat.github.io)
