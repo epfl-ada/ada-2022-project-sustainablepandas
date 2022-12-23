@@ -6,10 +6,9 @@ Check out our data story by visiting our website:  [Sustainable Pandas Website](
 
 ## Repo Contents:
 
---> to update
-- `project_beer_reviews.ipynb`: main notebook for the project
-- `GoogleAPI.ipynb`: notebook containing the google API requests to get breweries latitudes and longitudes
-
+- `MilestoneP2.ipynb`: notebook from the second milestone
+- `brews_API.ipynb`: notebook containing the google API requests to get breweries latitudes and longitudes
+- `Project_Final.ipynb`: notebook of the project
 
 ## Abstract
 
@@ -24,17 +23,14 @@ Breweries are becoming more and more popular nowadays with a rising interest for
 
 ## Proposed additional datasets
 
---> to update
 - Google Maps API will give us additional information about breweries locations: latitude and longitude
 - Geopandas, which will provide spatial data for the maps production.
 - Maps delimitation of Switzerland or other required country by district.
-- [Brewer’s Friend Beer recipe](https://www.kaggle.com/datasets/jtrofe/beer-recipes?resource=download) dataframe, which holds the different properties of each style of beer to perform a clustering of beerstyles into wider categories.
 
 
 ## Organization within the team
 
---> to update
-- Noé: Google API, mapping with the retrieved data, analysis part
-- Bastien: Mapping beer style and countries, analysis part
-- Nicolas: Analysis part + website
-- Baptiste: Google API, beer clustering, analysis part
+- Noé: Story teller, Google API, barplot, beer styles location analysis, coding
+- Bastien: Main story teller, distance to closest city, density map, case study in Brussel, coding
+- Nicolas: Story teller, website, heatmaps, coding
+- Baptiste: Story teller, Google API, boxplot rating comparison, linear regression, barplot, coding
