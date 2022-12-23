@@ -15,6 +15,8 @@ Breweries are becoming more and more popular nowadays, each of them proposing be
 
 There are several factors to consider when choosing a location for a brewery such as the access to raw materials (water, hops, barley, and yeast), the proximity to customers, zoning laws and regulations, costs of renting or buying property, and competition with other breweries. For this project, we were interested to distinguish the difference between urban and rural breweries.
 
+## Goal
+
 This projects aims to give advice to new brewers and indicate if they should install themselves in a crowded city or in the calm countryside. A look will also be given into beer styles and what are differences can be found between beer crafted in urban area and in rural area.
 
 ## Research questions
