@@ -2,7 +2,7 @@
 
 ## Datastory 
 
-Check out our website and enjoy our data story:  [Sustainable Pandas Website](https://nicolasrochat.github.io)
+Check out our data story by visiting our website:  [Sustainable Pandas Website](https://nicolasrochat.github.io)
 
 ## Repo Contents:
 
