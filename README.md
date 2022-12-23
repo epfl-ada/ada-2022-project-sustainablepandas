@@ -1,4 +1,5 @@
-# Brew-tiful Spots - Where should you install your brewery based on beer reviews ? Where should you install your brewery based on beer reviews ? In the countryside or in a city?
+# Brew-tiful Spots 
+## Where should you install your brewery based on beer reviews ? Where should you install your brewery based on beer reviews ? In the countryside or in a city?
 
 ## Repo Contents:
 
