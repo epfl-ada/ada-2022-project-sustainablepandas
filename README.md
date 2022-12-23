@@ -4,6 +4,9 @@ Github files:
 - project_beer_reviews.ipynb: main notebook for the project
 - GoogleAPI.ipynb: notebook containing the google API requests to get breweries latitudes and longitudes
 
+Datastory website:
+- [Sustainable Pandas Website](https://nicolasrochat.github.io)
+
 ## Abstract
 
 Beer is one of the most popular beverages and is consumed worldwide. With this in mind, we are interested to analyze and depict the type of beer consumption across the world, that is, which kind of beers are consumed and preferred in which country. Being provided with the dataset of the beer reviews website Ratebeer, we have access to a huge amount of data about beer ratings from users from everywhere in the world. The goal of the project is to create some interactive spatiotemporal map showing the trends of production and consumption of each country, starting from the earliest reviews available until 2017. It will help us to determine the preference and trend in beer consumption for the analyzed period of time, and we will try to explain the reasons behind it by identifying the main features that people like in beers. Google maps API will be used to localize more precisely the breweries in their respective countries.
