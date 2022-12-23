@@ -1,14 +1,15 @@
-# Brewery locations - Where should you install your brewery based on beer reviews ?
-
-## Datastory 
-
-Check out our data story by visiting our website:  [Sustainable Pandas Website](https://nicolasrochat.github.io)
+# Brew-tiful Spots - Where should you install your brewery based on beer reviews ? Where should you install your brewery based on beer reviews ? In the countryside or in a city?
 
 ## Repo Contents:
 
 - `MilestoneP2.ipynb`: notebook from the second milestone
 - `brews_API.ipynb`: notebook containing the google API requests to get breweries latitudes and longitudes
 - `Project_Final.ipynb`: notebook of the project
+
+
+## Datastory 
+
+Check out our data story by visiting our website:  [Sustainable Pandas Website](https://nicolasrochat.github.io)
 
 ## Abstract
 
